@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/raylib/raylib/src/**",
+               "E:/Programs/Chipmunk2D/include/chipmunk/**",
+               "E:/Programs/libtorch_release_12p6_version_2p6p0/libtorch/include",
+                "E:/Programs/libtorch_release_12p6_version_2p6p0/libtorch/include/torch/csrc/api/include",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include/thrust",
+                "E:/Programs/anaconda/Lib/site-packages/pybind11/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "GRAPHICS_API_OPENGL_33",
+                "PLATFORM_DESKTOP"
+            ],
+            "compilerPath": "C:/raylib/w64devkit/bin/gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
